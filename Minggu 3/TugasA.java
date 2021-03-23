@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package MINGGU_3;
+
+/**
+ *
+ * @author Administrator
+ */
+public class TugasA {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+         String [] Nama = {"Vasyilla", "Kautsar", "Al","Fitra", "Yudha"};
+        
+        for(int i=0; i<Nama.length; i++) {
+        System.out.print(Nama[i] + " ");
+        }
+    }
+    
+}
